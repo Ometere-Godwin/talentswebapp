@@ -1,0 +1,167 @@
+@import "./Variables.css";
+
+/* CAROUSEL START */
+
+.carouselImageCaption {
+  color: #fff;
+  position: absolute;
+  top: 55%;
+  left: 5%;
+  text-align: center;
+  width: 70%;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 600;
+}
+.carouselImage {
+  max-width: 76vh;
+}
+
+/* CAROUSEL END */
+
+/* FORMS START */
+
+.singular {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 60px;
+  letter-spacing: 0em;
+}
+
+.sampleText {
+  width: 360px;
+  margin: 31px auto;
+  border-radius: 8px;
+  padding: 20px;
+  background-color: var(--talentnest-blue-bg);
+
+}
+
+.formTitle {
+  color: var(--talentnest-blue);
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding-bottom: 12px;
+}
+
+.formSupportText {
+  color: var(--talentnest-gray);
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  padding-bottom: 30px;
+}
+
+.formSupportText2 {
+  color: var(--talentnest-gray);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  margin-bottom: 20px;
+}
+
+.formSupportText2 > span {
+  color: var(--talentnest-blue);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.formLabel {
+  color: var(--talentnest-gray);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.formInput {
+  border-radius: 8px;
+  outline: none;
+  border: 1px solid #CCC;
+  width: 100%;
+  min-width: 360px;
+  height: 45px;
+  margin-bottom: 18px;
+  margin-top: 6px;
+  padding: 12px 10px 15px 20px;
+  color: var(--talentnest-gray);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+p.lineThroughText {
+  text-align: center; 
+  border-bottom: 0.5px solid #666; 
+  line-height: 0.1em;
+  color: var(--talentnest-text-dark);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+} 
+
+p.lineThroughText span { 
+   background:#fff; 
+   padding:0 10px; 
+}
+
+input.inputFieldInvalid {
+  border: 1px solid var(--talentnest-danger) !important;
+
+}
+
+p.errorText {
+  color: var(--talentnest-danger);
+  margin-top: -10px;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0.5px;
+}
+
+label.formSubText {
+  color: var(--talentnest-gray);
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 18px; /* 150% */
+letter-spacing: 0.5px;
+}
+
+a.formSubTextubTextBlue {
+  color: var(--talentnest-blue);
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: 18px; /* 150% */
+letter-spacing: 0.5px;
+}
+
+/* FORMS END */
+
+@media screen and (max-width: 768px) {
+  .formTitle {
+    font-size: 30px;
+  }
+  .formSupportText {
+    font-size: 13px;
+  }
+  .formLabel {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .formTitle {
+    font-size: 27px;
+  }
+}

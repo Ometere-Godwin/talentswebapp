@@ -1,0 +1,22 @@
+
+:root {
+    --talentnest-blue: #043299;
+    --talentnest-blue-bg2: #b5c5e6;
+    --talentnest-blue-bg: #CFD8EC;
+    --talentnest-light-blue: #F7F7F7;
+    --talentnest-gray: #666;
+    --talentnest-gray-bg: #B3B3B380;
+    --talentnest-gray2: #F2F4F7;
+    --talentnest-gray3: #F5F5F5;
+    --talentnest-danger: #FF5454;
+    --talentnest-red: #FF0000;
+    --talentnest-dark-dark: #333;
+    --talentnest-yellow: #F9B712;
+    --talentnest-yellow-bg: #f3c247;
+    --talentnest-pink: rgba(238, 183, 246, 1);
+    --talentnest-pink-bg: rgba(238, 183, 246, 0.64);
+    --talentnest-teal: rgba(133, 237, 237, 1);
+    --talentnest-teal-bg: rgba(103, 237, 237, 1);
+    --talentnest-green: #10C181;
+    --talentnest-green-bg: #2cd094;
+  }

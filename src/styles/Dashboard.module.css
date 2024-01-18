@@ -1,0 +1,42 @@
+@import "./Variables.css";
+
+div.dashboardBg {
+    background-color: var(--talentnest-light-blue);
+}
+
+div.progressCard {
+    width: 100%;
+    height: auto;
+    padding: 20px 40px;
+    border-radius: 10px;
+    border: 1px solid var(--talentnest-blue);
+}
+
+div.profileCard {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 15px;
+    padding: 20px 40px;
+    border-radius: 10px 10px 0px 10px;
+}
+
+
+div.profileCard > div:first-of-type {
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+div.profileCard > div:nth-child(2) {
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}

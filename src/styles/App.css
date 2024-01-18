@@ -1,0 +1,213 @@
+@import './Variables.css';
+
+.gradient-container {
+  background: linear-gradient(125deg, rgba(121, 237, 221, 0.1) 27%, rgba(29, 98, 115, 0.39) 121.04%);
+  box-shadow: 0px 2px 5px 0px rgba(4, 50, 153, 0.10);
+}
+
+/* BASE BUTTON STYLES START */
+
+.baseButton {
+  cursor: pointer;
+  height: 45px;
+  border-radius: 8px;
+  line-height: 150%;
+  padding: 10px 20px;
+  transition: all 0.5 ease-in-out;
+}
+
+.buttonOutlineBlue {
+  height: 33px;
+  padding: 8px 20px 8px 20px;
+  transition: all 0.5 ease-in-out;
+  border-radius: 10px;
+  color:  var(--talentnest-blue);
+  border: 1px solid var(--talentnest-blue);
+}
+
+.buttonOutlineDark {
+  transition: all 0.5 ease-in-out;
+  padding: 8px 20px 8px 20px;
+  height: 33px;
+  color:  black;
+  border: 1px solid var(--talentnest-gray-bg);
+}
+
+.buttonOutlineBlueInverted {
+  height: 44px;
+  padding: 8px 20px 8px 20px;
+  transition: all 0.5 ease-in-out;
+  border-radius: 30px;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+.baseThemedButton {
+  color: #000;
+}
+
+.baseThemedButton.base-teal {
+  background-color: var(--talentnest-teal);
+}
+
+.baseThemedButton.base-green {
+  background-color: var(--talentnest-green);
+}
+
+.baseThemedButton.base-blue {
+  background-color: var(--talentnest-blue);
+}
+
+.baseThemedButton.base-gold {
+  background-color: var(--talentnest-yellow);
+}
+
+.baseThemedButton.base-pink {
+  background-color: var(--talentnest-pink);
+}
+
+.baseThemedButton.base-gold:not(:disabled):hover, .baseThemedButton.base-teal:not(:disabled):hover, .baseThemedButton.base-pink:not(:disabled):hover, .baseThemedButton.base-blue:not(:disabled):hover, .baseThemedButton.base-green:not(:disabled):hover {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.baseButton1 {
+  background: var(--talentnest-blue);
+  color: #fff;
+}
+
+.buttonOutlineBlue:disabled, .buttonOutlineDark:disabled {
+  border: 1px solid var(--talentnest-gray-bg);
+  color: var(--talentnest-gray-bg);
+  background-color: #fff;
+}
+
+.buttonOutlineDark:not(:disabled):hover {
+  filter: drop-shadow(0px 1px 2px gray);
+}
+
+.buttonOutlineBlueInverted:disabled {
+  border: 1px solid var(--talentnest-gray-bg);
+  color: var(--talentnest-gray-bg);
+}
+
+.buttonOutlineBlue:not(:disabled):hover {
+  background-color: var(--talentnest-blue);
+  color: #fff;
+}
+
+.baseButton1:not(:disabled):hover {
+  background-color: #3053a4;
+}
+
+.baseButton1Disabled {
+  background-color: var(--talentnest-gray-bg);
+  color:  var(--talentnest-gray);
+}
+
+.buttonOutlineBlueInverted:not(:disabled):hover {
+  background-color: #fff;
+}
+
+.buttonOutlineBlueInverted:not(:disabled):hover > p {
+  color:  var(--talentnest-blue);
+}
+
+
+.baseButton.baseButtonWide {
+  width: 360px;
+}
+
+.baseButton.baseButtonMedium {
+  width: 169px;
+}
+
+.baseButton.baseButtonSmall {
+  width: 132px;
+}
+
+.buttonOutlineBlue.taller, .buttonOutlineBlueInverted.taller, .buttonOutlineDark.taller {
+  height: 45px;
+}
+/* BASE BUTTON STYLES END */
+
+/* BASE TEXT STYLES START */
+
+.baseText {
+  font-style: normal;
+  line-height: normal;
+}
+
+.baseTextGray {
+  color: var(--talentnest-gray);
+}
+
+.baseTextBlack {
+  color: var(--talentnest-text-dark);
+}
+
+.baseTextWhite {
+  color: #fff;
+}
+
+.baseTextBlue {
+  color: var(--talentnest-blue);
+}
+
+/* BASE TEXT STYLES END */
+
+/* BASE DP COMPONENT STYLES START */
+
+img.dpSmall {
+  width: 43px;
+  height: 43px;
+}
+
+img.dpLarge {
+  width: 128px;
+  height: 128px;
+}
+
+img.dpMini {
+  width: 40px;
+  height: 40px;
+}
+
+/* BASE DP COMPONENT STYLES END */
+
+
+/* BASE SIDEBAR ITEM STYLES START */
+
+.sidebarItem {
+  border-radius: 10px;
+  width: 202px;
+  height: 64px;
+  transition: all 0.5s ease-in-out;
+  margin-bottom: 5px;
+}
+
+.sidebarItem.active {
+  background: #EAECF0;
+}
+
+.sidebarItem:hover {
+  background: #EAECF0;
+}
+
+
+/* BASE SIDEBAR ITEM STYLES END */
+
+
+/* USER TAG STYLES START */
+
+div.userTag {
+  width: 128px;
+  height: 30px;
+  border-radius: 50px 50px 0px 0px;
+  opacity: 0.5;
+  background: #FFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* USER TAG STYLES END */
